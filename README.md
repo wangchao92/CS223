@@ -1,5 +1,5 @@
 # How to use TransGenerator?
-'''python
+```python
 from TransGenerator import TransGenerator
 tg = TransGenerator('low')
-'''
+```
