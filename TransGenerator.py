@@ -11,7 +11,7 @@ class TransGenerator(object):
 		try:
 			self.inputIndex += 1
 			sql = self.inputSQL[self.inputIndex].strip('\n')
-			if sql == '':
+			if self.inputIndex == 100 or sql == '':
 				return 'error'
 			return sql
 		except:
